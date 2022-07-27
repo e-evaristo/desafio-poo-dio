@@ -18,10 +18,6 @@ public class Curso extends Conteudo {
 
     @Override
     public String toString() {
-        return "Curso{" +
-                "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
-                ", cargaHoraria=" + cargaHoraria +
-                '}';
+        return "CURSO: " + getTitulo() + " - '" + getDescricao() + "' - C/H: " + cargaHoraria + "h";
     }
 }
